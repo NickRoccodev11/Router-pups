@@ -18,7 +18,9 @@ body {
   border-radius: 10%;
   font-family: 'Druid';
 }
-
+#navbar>a.active{
+  background-color: rgb(114, 114, 191);
+}
 #navbar>*:hover{
 color:rgb(159, 219, 219);
 
