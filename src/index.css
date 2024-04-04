@@ -20,6 +20,7 @@ body {
 }
 #navbar>a.active{
   background-color: rgb(114, 114, 191);
+  pointer-events: none;
 }
 
 
