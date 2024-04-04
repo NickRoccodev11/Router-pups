@@ -15,9 +15,9 @@ const Details = ({ BASE_URL }) => {
     fetchSinglePuppy(id);
   }, [id])
 
-  const handleDelete = async (puppyId) => {
+  const handleDelete = async (id) => {
     try {
-      await fetch(`${BASE_URL}/players/${puppyId}`, {
+      await fetch(`${BASE_URL}/players/${id}`, {
         method: 'DELETE',
       });
     } catch (err) {
@@ -48,7 +48,7 @@ const Details = ({ BASE_URL }) => {
           <button
             className="delete-button"
             onClick={() => {
-              handleDelete(singlePuppy.id)
+              handleDelete(id)
             }}
           >
             Delete puppy  </button>
