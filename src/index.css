@@ -21,9 +21,10 @@ body {
 #navbar>a.active{
   background-color: rgb(114, 114, 191);
 }
-#navbar>*:hover{
-color:rgb(159, 219, 219);
 
+
+#navbar>a:hover:not(.active) {
+  color: rgb(159, 219, 219);
 }
 
 @font-face {
