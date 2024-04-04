@@ -152,6 +152,13 @@ color:rgb(159, 219, 219);
 #search-div>h3{
   color: rgb(37, 61, 55);
 }
+.sort-section{
+  margin-top: 20px;
+}
+.sort-section>button{
+  background-color:  rgb(169, 195, 187);
+  margin-right: 10px;
+}
 
 #single-view {
   animation-name: fade-in;
